@@ -30,20 +30,21 @@ You can also pass options when adding plugin
 
 where
 
-- maxLoginAttempts : Maximum number of allowable failed logins
+- *maxLoginAttempts* : Maximum number of allowable failed logins
 
-- lockTime  :  Amount of duration that account will be locked after exceeding the maxLoginAttemts
+- *lockTime*  :  Amount of duration that account will be locked after exceeding the maxLoginAttemts
 
-- username :  username key that is used in User schema. By default, it is 'username'. If you are using email as username, you can set to 'email'
+- *username* :  username key that is used in User schema. By default, it is 'username'. If you are using email as username, you can set to 'email'
 
-- password :  password key that is used in User schema. By default, it is 'password'.
+- *password* :  password key that is used in User schema. By default, it is 'password'.
 
 
 ### Example
-    Refer examples folder for sample code
 
-    To verify the code, you have to run the sample.js 5 times.
-    After 5th time, it will lock the account. It wont allow you to access the account for next 2 hours.
+Refer examples folder for sample code
+
+To verify the code, you have to run the sample.js 5 times.
+After 5th time, it will lock the account. It wont allow you to access the account for next 2 hours.
 
 ### Contributors
 
