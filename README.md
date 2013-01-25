@@ -29,9 +29,13 @@ You can also pass options when adding plugin
     User.plugin(locking, options)
 
 where
+
     maxLoginAttempts - Maximum number of allowable failed logins
+
     lockTime  - Amount of duration that account will be locked after exceeding the maxLoginAttemts
+
     username - username key that is used in User schema. By default, it is 'username'. If you are using email as username, you can set to 'email'
+
     password - password key that is used in User schema. By default, it is 'password'.
 
 

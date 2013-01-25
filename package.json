@@ -1,11 +1,40 @@
-{ "name": "mongoose-account-locking"
-, "description":  "Account Locking for mongoose user schema"
-, "version":  "0.0.1"
-, "author": "Jeremy Martin"
-, "dependencies": { "mongoose": "*", "bcrypt": "*"}
-, "keywords": [ "mongoose", "mongo", "mongodb", "locking" ]
-, "scripts": { "test": "make test" }
-, "engines": { "node": "*" }
-, "main": "./index"
-, "licenses": [ { "type": "The MIT License", "url": "http://www.opensource.org/licenses/mit-license.php" } ]
+{
+  "name": "mongoose-account-locking",
+  "description": "Account Locking for mongoose user schema",
+  "version": "0.0.1",
+  "author": "Jeremy Martin",
+  "dependencies": {
+    "mongoose": "*",
+    "bcrypt": "*"
+  },
+  "keywords": [
+    "mongoose",
+    "mongo",
+    "mongodb",
+    "locking"
+  ],
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "main": "./index",
+  "licenses": [
+    {
+      "type": "The MIT License",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "gitHead": "0dc9391dc516d789339020b89c815a505ade0045",
+  "readmeFilename": "README.md",
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fizerkhan/mongoose-account-locking.git"
+  },
+  "license": "MIT"
 }
