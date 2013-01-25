@@ -62,7 +62,7 @@ After 5th time, it will lock the account. It wont allow you to access the accoun
 
 ### Contributors
 
-- [Jeremy Martin](https://devsmash.com/)
+- [Jeremy Martin](https://github.com/jmar777)
 - [Fizer Khan](https://github.com/fizerkhan)
 
 ### License
