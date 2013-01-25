@@ -1,0 +1,39 @@
+#Ignore temp and swp files
+*~
+*.swp
+
+### /Users/fizerkhan/.gitignore-boilerplates/NODE.gitignore
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
+
+node_modules
+
+### /Users/fizerkhan/.gitignore-boilerplates/Global/OSX.gitignore
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
