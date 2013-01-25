@@ -39,6 +39,19 @@ where
 - *password* :  password key that is used in User schema. By default, it is 'password'.
 
 
+You can authenticate user as follows
+
+    // Create Model based on User Schema
+    var User = mongoose.model('User', UserSchema);
+
+    // Authenticate username and password
+    // If success, callback receive user
+    // If failure, callback receive err or reason
+    // Reasons are NOT_FOUND, PASSWORD_INCORRECT, and MAX_ATTEMPTS. 
+    User.getAuthenticated('username', 'MyPassword', function(err, user, reason) {
+        // Write your code here
+    }
+
 ### Example
 
 Refer examples folder for sample code
