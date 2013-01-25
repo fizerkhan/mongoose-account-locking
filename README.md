@@ -15,7 +15,8 @@ This mongoose plugin is based on the post by Jeremy Martin’s [DevSmash Blog](h
 ### How to use?
 
 After define your Mongoose user schema, just add mongoose-account-locking as plugin to your user schema
-
+    
+    var locking = require('mongoose-account-locking');
     UserSchema.plugin(locking);
 
 You can also pass options when adding plugin
